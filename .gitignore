@@ -1,0 +1,7 @@
+process/input/*
+process/outpur/*
+dataset/augmented_bad/augmented_bad_bent/*
+dataset/augmented_bad/augmented_bad_hole/*
+dataset/augmented_good/*
+venv
+results
