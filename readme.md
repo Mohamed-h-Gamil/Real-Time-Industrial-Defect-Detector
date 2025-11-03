@@ -1,4 +1,4 @@
-# Real-Time Industrial Defect Detector (Edge-ML Prototype) 🏭
+# Real-Time Industrial Defect Detector 🏭
 
 An end-to-end Computer Vision system for real-time quality control and industrial defect detection, designed with a hybrid Edge-to-Cloud architecture for low-latency performance in a simulated factory environment.
 
@@ -61,8 +61,8 @@ This high AUCROC score validates the model's robustness and efficiency for indus
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/Mohamed-h-Gamil/your-anomaly-repo.git](https://github.com/Mohamed-h-Gamil/your-anomaly-repo.git)
-    cd your-anomaly-repo
+    git clone https://github.com/Mohamed-h-Gamil/Real-Time-Industrial-Defect-Detector.git
+    cd Real-Time-Industrial-Defect-Detector
     ```
 
 2.  **Install Dependencies:**
@@ -70,7 +70,17 @@ This high AUCROC score validates the model's robustness and efficiency for indus
     pip install -r requirements.txt
     ```
 
-3.  **Run the Streamlit Application:**
+3.  **Augment The Data:**
+    ```bash
+    python init.py
+    ```
+
+4.  **Train the PaDiM model:**
+    ```bash
+    python model_train.py
+    ```
+
+5.  **Run the Streamlit Application:**
     ```bash
     streamlit run app.py
     ```
