@@ -25,6 +25,9 @@ good_image_folder = "dataset/good"
 bad_hole_image_folder = "dataset/bad/hole"
 bad_bent_image_folder = "dataset/bad/bent"
 
+os.makedirs("dataset/augmented_bad/augmented_bad_hole", exist_ok=True)
+os.makedirs("dataset/augmented_bad/augmented_bad_bent", exist_ok=True)
+
 counter = 1
 for img in os.listdir(good_image_folder):
     image = Image.open(os.path.join(good_image_folder, img))
