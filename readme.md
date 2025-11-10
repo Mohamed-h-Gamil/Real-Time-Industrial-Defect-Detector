@@ -29,8 +29,8 @@ An end-to-end Computer Vision system for real-time quality control and industria
 This project utilizes a hybrid architecture to balance data collection needs (Edge) with high-performance inference requirements (Cloud/Campus Server).
 
 1.  **Edge Data Acquisition:** The **ESP32** (simulating a factory camera endpoint) captures images of bottle caps/items.
-2.  **Transfer:** Images are sent to the central campus server hosting the application.
-3.  **Inference (Cloud):** The trained **PaDIM** model runs on the server, performing the anomaly detection.
+2.  **Transfer:** Images are sent to the central server hosting the application.
+3.  **Inference:** The trained **PaDIM** model runs on the server, performing the anomaly detection.
 4.  **Real-Time Visualization:** Results are immediately sent to the **Streamlit** application frontend for operator monitoring.
 
 
